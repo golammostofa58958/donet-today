@@ -1,9 +1,14 @@
 body {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
 h1 {
     font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 .donet-now {
@@ -24,12 +29,91 @@ h1 {
     color: white;
     font-weight: 700;
     border-radius: 10px;
+
 }
 
 .donet0 {
-
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+.donate-today {
+    text-align: center;
+    width: 60%;
+    padding: 10% 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.tk {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 2% auto;
+
+
+
+
+}
+
+.color {
+    border: 2px solid red;
+    background-color: rgb(245, 222, 222);
+}
+
+.tk h3 {
+    border: 50% 50%;
+    margin: 1% 1%;
+    width: 100%;
+    box-shadow: 10px 10px 30px rgb(190, 189, 189);
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.border {
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+
+.donet-2 {
+    padding: 25px 10px;
+    text-align: center;
+}
+
+.donate-plan {
+    text-align: center;
+    width: 60%;
+    padding: 10% 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 5% 5%;
+
+}
+
+.first {
+    box-shadow: 10px 10px 30px gray;
+    padding: 10px;
+    background-color: rgb(217, 232, 232);
+}
+
+.second {
+    box-shadow: 10px 10px 30px gray;
+    padding: 10px;
+    background-color: rgb(241, 228, 223);
+}
+
+.Thard {
+    box-shadow: 10px 10px 30px gray;
+    padding: 10px;
+    background-color: rgb(252, 252, 235);
 }
