@@ -130,3 +130,45 @@ h2 {
 .half-width img {
     width: 100%;
 }
+
+.need {
+    display: flex;
+}
+
+.updates {
+    text-align: center;
+    width: 60%;
+    padding: 10% 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.form-box {
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgb(234, 244, 213);
+}
+
+.form-box input {
+    font-size: 18px;
+    color: #000;
+    background: rgba(224, 213, 224, 0.8);
+    border: none;
+    outline: none;
+}
+
+.form-box button {
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    background: orangered;
+}
