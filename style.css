@@ -117,3 +117,16 @@ h2 {
     padding: 10px;
     background-color: rgb(252, 252, 235);
 }
+
+.lives {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding: 5%;
+}
+
+.half-width img {
+    width: 100%;
+}
